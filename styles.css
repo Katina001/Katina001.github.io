@@ -1,0 +1,58 @@
+
+body{
+    background: gray;
+    color: white;
+    margin: center;
+    padding-top: 2%;
+    padding-left: 1%;;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    font-size: medium;
+    
+}
+
+header{
+
+
+    background-color:rgba(50, 165, 42, 0.548);
+    color: white;
+    display:inline-flex;
+    font-family:'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+  .intro {
+        display:inline-block;
+        justify-content:right;
+        align-items:center;
+        margin: auto;
+        border-radius: 40%;
+        font-family:Georgia'Times New Roman', Times, serif;
+        max-width: 40%;
+        
+        
+    }
+        
+
+
+    img {
+        width: 40%;
+        height: 40%;
+        border-radius: 0%;
+        
+    }
+
+    
+
+.centered {
+    text-align:right;
+}
+
+
+.intro {
+     max-width: 100%;
+     margin: 5%;
+  text-align: right;
+
+}
+
