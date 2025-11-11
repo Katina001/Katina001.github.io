@@ -2,21 +2,38 @@
 body{
     background: gray;
     color: white;
-    margin: center;
-    padding-top: 2%;
-    padding-left: 1%;;
-    padding-bottom: 2%;
-    padding-right: 1%;
+    /* margin-right:10px; */
+    /* padding-top: 2%; */
+    /* padding-left: 2%;; */
+    /* padding-bottom: 2%; */
+    /* padding-right: 2%; */
     font-size: medium;
+    margin:auto;
     
 }
 
-header{
+section {
+margin: auto 50px ; 
+}
+.hero-imag {
 
+    background-image:url(MandazinLemonade.jpg);
+    background-repeat:round;
+    background:position 50px;
+    height: 500px;
+    background-size:contain;
+    padding-left: 0%;
+    padding-right:0%;
+
+}
+
+
+.header{
+margin-top:0px;
 
     background-color:rgba(50, 165, 42, 0.548);
-    color: white;
-    display:inline-flex;
+    display: flex;
+    align-items: flex-start;
     font-family:'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
 
     
@@ -30,15 +47,13 @@ header{
         font-family:Georgia'Times New Roman', Times, serif;
         max-width: 40%;
         
-        
     }
         
-
-
     img {
         width: 40%;
         height: 40%;
-        border-radius: 0%;
+        border: radius 0%;
+        padding: auto;
         
     }
 
@@ -51,8 +66,45 @@ header{
 
 .intro {
      max-width: 100%;
-     margin: 5%;
+     margin: -10%;
   text-align: right;
 
 }
+.nav{
+    background-color: green;
+    height: 80px;
+    
+    display:flex;
 
+    align-items: center;
+    
+
+}
+.nav {
+    text-decoration:none;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav a{color: #000;}
+.nav a:hover{color: tomato; background-color: antiquewhite;}
+
+.menuebody { 
+ display:flex;
+    justify-content:center;
+
+}
+  .menuepics { 
+    display:flex;
+    justify-content:center;
+    height: auto;
+    width: 500px;
+  }  
+
+  .menuepics2{ 
+    display:flex;
+    justify-content:center;
+    height: auto;
+        width: 500px;
+    }
